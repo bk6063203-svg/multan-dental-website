@@ -1,4 +1,3 @@
-// src/components/BookingSection.tsx
 "use client";
 
 import { useState } from "react";
@@ -75,6 +74,15 @@ export default function BookingSection() {
               <div className="space-y-3">
                 <p className="text-slate-600 font-medium">📍 6FQM+VQR, Shalimar Colony, Multan</p>
                 <p className="text-emerald-800 font-bold text-lg">📞 0311-7594193</p>
+                {/* Maps Link */}
+                <a 
+                  href="https://maps.app.goo.gl/9P4kCnHjC7WmDh4s7" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 text-emerald-700 font-semibold underline hover:text-emerald-900"
+                >
+                  Open in Maps ↗
+                </a>
               </div>
             </div>
 
