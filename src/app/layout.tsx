@@ -13,13 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  // Ye metadataBase add karna zaroori hai images ke liye
+  metadataBase: new URL('https://multandentalandaesthetics.online'),
+  
   title: 'Multan Dental & Aesthetics | Dr. Alizay Gull Khan',
   description: 'Dr. Alizay Gull Khan. Lead Dental Surgeon & Aesthetic Specialist. Providing quality dental care in Multan.',
-  // Favicon aur Icons yahan set honge
+  
   icons: {
     icon: '/favicon.ico', 
   },
-  // WhatsApp/Social media preview ke liye image
+  
   openGraph: {
     title: 'Multan Dental & Aesthetics | Dr. Alizay Gull Khan',
     description: 'Dr. Alizay Gull Khan. Lead Dental Surgeon & Aesthetic Specialist. Providing quality dental care in Multan.',
@@ -27,9 +30,10 @@ export const metadata: Metadata = {
     siteName: 'Multan Dental & Aesthetics',
     images: [
       {
-        url: '/opengraph-image.png', // Make sure this file exists in your 'public' folder
+        url: '/opengraph-image.png',
         width: 1200,
         height: 630,
+        alt: 'Multan Dental & Aesthetics Logo',
       },
     ],
     locale: 'en_US',
