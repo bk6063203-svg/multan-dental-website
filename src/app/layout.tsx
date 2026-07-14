@@ -13,12 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // Ye metadataBase add karna zaroori hai images ke liye
-  metadataBase: new URL('https://multandentalandaesthetics.online'),
-  
-  title: 'Multan Dental & Aesthetics | Dr. Alizay Gull Khan',
-  description: 'Dr. Alizay Gull Khan. Lead Dental Surgeon & Aesthetic Specialist. Providing quality dental care in Multan.',
-  
+  // Title ko thoda change kar ke dekhte hain taake search engine force-update ho
+  title: {
+    default: 'Multan Dental & Aesthetics | #1 Dental Clinic',
+    template: '%s | Multan Dental & Aesthetics',
+  },
+  description: '#1 Dental Clinic in Multan. Your Smile, Our Passion. Professional aesthetic care designed for your unique smile. Experience precision, comfort.',
+  // ... baqi code wahi rehne do
+};
   icons: {
     icon: '/favicon.ico', 
   },
