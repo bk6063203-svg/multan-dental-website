@@ -17,14 +17,15 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex gap-10 font-medium text-sm tracking-wide uppercase">
-          <a href="#" className="hover:text-emerald-200 transition-colors duration-300">Home</a>
-          <a href="#gallery" className="hover:text-emerald-200 transition-colors duration-300">Gallery</a>
-          <a href="#booking" className="hover:text-emerald-200 transition-colors duration-300">Contact</a>
+          <a href="/" className="hover:text-emerald-200 transition-colors duration-300">Home</a>
+          <a href="/services" className="hover:text-emerald-200 transition-colors duration-300">Services</a>
+          <a href="/#gallery" className="hover:text-emerald-200 transition-colors duration-300">Gallery</a>
+          <a href="/#booking" className="hover:text-emerald-200 transition-colors duration-300">Contact</a>
         </div>
 
         {/* CTA Button */}
         <a 
-          href="#booking" 
+          href="/#booking" 
           className="hidden md:block bg-transparent border-2 border-white px-8 py-2 rounded-full font-bold text-sm hover:bg-white hover:text-emerald-800 transition-all duration-300"
         >
           Book Appointment
