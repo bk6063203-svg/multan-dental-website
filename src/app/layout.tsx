@@ -13,14 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // Title ko thoda change kar ke dekhte hain taake search engine force-update ho
+  metadataBase: new URL('https://multandentalandaesthetics.online'),
+  
   title: {
     default: 'Multan Dental & Aesthetics | #1 Dental Clinic',
     template: '%s | Multan Dental & Aesthetics',
   },
+  
   description: '#1 Dental Clinic in Multan. Your Smile, Our Passion. Professional aesthetic care designed for your unique smile. Experience precision, comfort.',
-  // ... baqi code wahi rehne do
-};
+  
   icons: {
     icon: '/favicon.ico', 
   },
